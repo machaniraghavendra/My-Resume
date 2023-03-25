@@ -1,0 +1,780 @@
+<html lang="en">
+<title>Raghu Resume</title>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://raghuresume.w3spaces.com/Raghu.jpg?bypass-cache=20855543">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: calibri;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            justify-content: center;
+            position: relative;
+            margin: 0%;
+            padding: 0%;
+            font-size: 15px;
+        }
+
+        .back-night {
+            background: linear-gradient(307deg, #201d3a 60%, transparent 10%, #012636 0%);
+        }
+
+        .back-light {
+            background: linear-gradient(307deg, #FFDB35 60%, transparent 10%, #BDE5E1 0%);
+        }
+
+        .card-img {
+            align-content: center;
+            display: flex;
+            box-shadow: 0px 10px 15px 0px rgb(83, 70, 70);
+            border: goldenrod 2px solid;
+        }
+
+        .dark {
+            box-shadow: 0px 0px 35px 0px #061977;
+            background-color: #000000;
+            color: #B29155;
+        }
+
+        .light {
+            background-color: aliceblue;
+            color: #000;
+            box-shadow: 0px 0px 35px 0px #000000;
+        }
+
+        .title {
+            color: white;
+        }
+
+        .blacktitle {
+            color: black;
+        }
+
+        .card-title {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        hr {
+            height: 2px;
+            background-color: #fff;
+        }
+
+        footer .card {
+            text-transform: uppercase;
+            color: white;
+        }
+
+        .foot-icon0 {
+            animation: jump infinite 1s linear;
+            animation-direction: alternate;
+        }
+
+        .foot-icon1 {
+            animation: jump infinite 1s linear;
+            animation-delay: 0.5s;
+            animation-direction: alternate;
+        }
+
+        .foot-icon2 {
+            animation: jump infinite 1s linear;
+            animation-delay: 1s;
+            animation-direction: alternate;
+        }
+
+        @keyframes jump {
+            0% {
+                transform: translateY(0px);
+            }
+
+            100% {
+                transform: translateY(10px);
+            }
+        }
+
+        .navbar {
+            width: 100%;
+            z-index: 9;
+            top: 0%;
+            left: 0%;
+            box-shadow: 0px 0px 10px 0px black;
+        }
+
+        .bar-night {
+            background: linear-gradient(290deg, transparent, #005670);
+        }
+
+        .bar-light {
+            background: linear-gradient(290deg, transparent, #00f2ff);
+        }
+
+        .scrollto {
+            text-decoration: none;
+        }
+
+        .btn-9,
+        .btn-9 *,
+        .btn-9 :after,
+        .btn-9 :before,
+        .btn-9:after,
+        .btn-9:before {
+            box-sizing: border-box;
+        }
+
+        .btn-9 {
+            -webkit-tap-highlight-color: transparent;
+            -webkit-appearance: button;
+            background-image: none;
+            color: #fff;
+            cursor: pointer;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+                Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            font-size: 100%;
+            line-height: 1.5;
+            margin: 0;
+            -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+            padding: 0;
+            text-transform: uppercase;
+        }
+
+        .btn-9:disabled {
+            cursor: default;
+        }
+
+        .btn-9:-moz-focusring {
+            outline: auto;
+        }
+
+        .btn-9 svg {
+            display: block;
+            vertical-align: middle;
+        }
+
+        .btn-9 [hidden] {
+            display: none;
+        }
+
+        .btn-9 {
+            border-radius: 30rem;
+            border-width: 1px;
+            overflow: hidden;
+            padding: 0rem 0.5rem;
+            position: relative;
+        }
+
+        .btn-9 a {
+            mix-blend-mode: difference;
+        }
+
+        .btn-9:after,
+        .btn-9:before {
+            --tilt: 1.2rem;
+            background: #41603f;
+            -webkit-clip-path: polygon(0 0,
+                    calc(100% - var(--tilt)) 0,
+                    100% 50%,
+                    calc(100% - var(--tilt)) 100%,
+                    0 100%);
+            clip-path: polygon(0 0,
+                    calc(100% - var(--tilt)) 0,
+                    100% 50%,
+                    calc(100% - var(--tilt)) 100%,
+                    0 100%);
+            content: "";
+            display: block;
+            height: 100%;
+            left: calc(-100% - var(--tilt));
+            position: absolute;
+            top: 0;
+            transform: translateX(var(--progress, 0));
+            transition: transform 0.2s ease;
+            width: calc(100% + var(--tilt));
+        }
+
+        .btn-9:after {
+            left: 100%;
+            transform: translateX(var(--progress, 0)) rotate(180deg);
+            z-index: -1;
+        }
+
+        .btn-9:hover:before {
+            --progress: 100%;
+        }
+
+        .btn-9:hover:after {
+            --progress: -100%;
+        }
+
+        ::-webkit-scrollbar {
+            background-color: #000;
+            width: 7px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(transparent, rgb(5, 198, 232));
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: rgb(11, 245, 237);
+        }
+
+        #mode {
+            transition: 0.5s;
+        }
+
+        .circle {
+            content: "";
+            width: 200%;
+            height: 150%;
+            background-color: rgb(12, 11, 11);
+            position: fixed;
+            animation: circle 1s 1 ease-out alternate;
+            z-index: 100;
+            visibility: hidden;
+
+        }
+
+        @keyframes circle {
+            from {
+                clip-path: circle(0%);
+                visibility: visible;
+            }
+
+            to {
+                visibility: visible;
+                clip-path: circle(100%);
+            }
+        }
+
+        .circle1 {
+            content: "";
+            width: 200%;
+            height: 150%;
+            background-color: rgb(255, 255, 255);
+            position: fixed;
+            animation: circle 1s 1 ease-out alternate;
+            z-index: 100;
+            visibility: hidden;
+
+        }
+
+        #line {
+
+            height: 5px;
+            margin: 0%;
+            padding: 0%;
+            position: fixed;
+            z-index: 99;
+            display: flex;
+            top: 0px;
+            left: 0px;
+            border-radius: 5px;
+        }
+
+        .line {
+            background-color: #000;
+        }
+
+        .line-dark {
+            background-color: gold;
+        }
+
+        @media screen and (max-width:576px) {
+            #line {
+                display: none;
+            }
+        }
+        .training{
+            color: rgb(46, 46, 249);
+        }
+        .training:hover{
+            color: rgb(46, 46, 249);
+        }
+    </style>
+</head>
+
+<body class="back-night" id="body">
+    <span id="circle"></span>
+    <span id="circle1"></span>
+    <br><br>
+    <div class="container-fluid">
+        <header>
+            <nav id="navbar_top" class="navbar fixed-top navbar-expand-lg bar-night">
+                <div class="container-fluid" data-aos="zoom-in-up">
+
+                    <h4 class="navbar-brand titles title"><strong>MACHANI RAGAVENDRA</strong></h4>
+
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                        <ul id="main_nav" class="nav nav-pills ms-auto">
+                            <li class=" nav-item btn-9 "><a class=" nav-link scrollto title titles" href="#raghu"> Home
+                            </a></li>
+                            <li class="nav-item btn-9"><a class="nav-link scrollto title titles" href="#Education">
+                                    Education</a>
+                            </li>
+                            <li class="nav-item btn-9"><a class="nav-link scrollto title titles"
+                                    href="#Work-experience"> Work
+                                    Experience</a></li>
+                            <li class="nav-item btn-9"><a class="nav-link scrollto title titles" href="#Project">
+                                    Project Details
+                                </a></li>
+                            <li class="nav-item btn-9"><a class="nav-link scrollto title titles" href="#download">
+                                    Download
+                                    Resume</a></li>
+                            <li class="nav-item"><a class="btn nav-link title titles" style="margin: 5px;"
+                                    onclick="dark()"><i class="fa-solid fa-sun" id="mode">
+
+                                    </i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="line">
+                <span id="line"></span>
+            </div>
+
+        </header>
+
+        <hr>
+        <br />
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="container">
+                    <div class="card dark" data-aos="zoom-in-right" data-aos-duration="1000">
+                        <img src="https://raghuresume.w3spaces.com/Raghu.jpg?bypass-cache=20855543" class="card-img"
+                            id="raghu" alt="Not Found">
+                        <br />
+                        <h5 class="card-title  text-center title titles">Ragavendra Machani</h5>
+                        <br />
+                        <div class="container-md text-left">
+                            <h6 class="card-text "><i class="fa-solid fa-code text-info"></i> &nbsp;Full Stack
+                                Developer(Java <i class="fa-brands fa-java"></i>, Python <i
+                                    class="fa-brands fa-python"></i>)</h6>
+                            <h6 class="card-text "><i class="fa-solid fa-house text-info"></i>
+                                &nbsp;Yemmiganur,Kurnool-AP
+                            </h6>
+                            <h6 class="card-text"><i class="fa-solid fa-envelope text-info"></i>
+                                &nbsp;raghu1000.rm@gmail.com &nbsp;<i class="fa-solid fa-copy"  onclick="copyBoard('raghu1000.rm@gmail.com')" style="cursor: pointer"></i></h6>
+                            <h6 class="card-text "><i class="fa-solid fa-phone text-info"></i></i> &nbsp;+91 9866111336
+                            </h6>
+                            <hr>
+                            <!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
+                            <h6 class="card-title titles title"><i
+                                    class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</h6>
+                            <p class="card-text "> &nbsp;Java</p>
+                            <div
+                                style="width: 100%; height:10%; background-color: rgb(253, 255, 253); border-radius: 15px; border: 1px black solid;">
+                                <div class="text-center text-light"
+                                    style="left:0%; width: 80%; height:10%; background-color: rgb(6, 147, 6); border-radius: 15px;">
+                                    <strong>80%</strong>
+                                </div>
+                            </div>
+                            <br />
+                            <p class="card-text "> &nbsp;Python</p>
+                            <div
+                                style="width: 100%; height:10%; background-color: rgb(253, 255, 253); border-radius: 15px; border: 1px black solid;">
+                                <div class="text-center text-light"
+                                    style="left:0%; width: 50%; height:10%; background-color: rgb(6, 147, 6); border-radius: 15px;">
+                                    <strong>50%</strong>
+                                </div>
+                            </div>
+                            <br />
+                            <p class="card-text "> &nbsp;UI/UX with React and HTML, CSS, JS</p>
+                            <div
+                                style="width: 100%; height:10%; background-color: rgb(253, 255, 253); border-radius: 15px; border: 1px black solid;">
+                                <div class="text-center text-light"
+                                    style="left:0%; width: 80%; height:10%; background-color: rgb(6, 147, 6); border-radius: 15px;">
+                                    <strong>80%</strong>
+                                </div>
+                            </div> <br />
+                            <p class="card-text">&nbsp;Working with Outsystems tool</p>
+                            <div
+                                style="width: 100%; height:10%; background-color: rgb(253, 255, 253); border-radius: 15px; border: 1px black solid;">
+                                <div class="text-center text-light"
+                                    style="left:0%; width: 70%; height:10%; background-color: rgb(6, 147, 6); border-radius: 15px;">
+                                    <strong>70%</strong>
+                                </div>
+                            </div> <br />
+                            <p class="card-text "> &nbsp;Spring Framework</p>
+                            <div
+                                style="width: 100%; height:10%; background-color: rgb(253, 255, 253); border-radius: 15px; border: 1px black solid;">
+                                <div class="text-center text-light"
+                                    style="left:0%; width: 80%; height:10%; background-color: rgb(6, 147, 6); border-radius: 15px;">
+                                    <strong>80%</strong>
+                                </div>
+                            </div>
+                            <br />
+                            <p class="card-text "> &nbsp;MySQL, Mongo-DB, Google-Spanner</p>
+                            <div
+                                style="width: 100%; height:10%; background-color: rgb(253, 255, 253); border-radius: 15px; border: 1px black solid;">
+                                <div class="text-center text-light"
+                                    style="left:0%; width: 60%; height:10%; background-color: rgb(6, 147, 6); border-radius: 15px;">
+                                    <strong>60%</strong>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
+                            <h6 class="card-title titles title"><i class="fa-solid fa-earth-asia"></i> Languages</h6>
+                            <p class="card-text "> &nbsp;English</p>
+                            <div
+                                style="width: 100%; height:10%; background-color: rgb(253, 255, 253); border-radius: 15px; border: 1px black solid;">
+                                <div class="text-center text-light"
+                                    style="left:0%; width: 90%; height:10%; background-color: rgb(6, 147, 6); border-radius: 15px;">
+                                    &nbsp;</div>
+                            </div>
+                            <br />
+                            <p class="card-text "> &nbsp;Telugu</p>
+                            <div
+                                style="width: 100%; height:10%; background-color: rgb(253, 255, 253); border-radius: 15px; border: 1px black solid;">
+                                <div class="text-center text-light"
+                                    style="left:0%; width: 100%; height:10%; background-color: rgb(6, 147, 6); border-radius: 15px;">
+                                    &nbsp;</div>
+                            </div>
+                            <br />
+                            <p class="card-text "> &nbsp;Kannada</p>
+                            <div
+                                style="width: 100%; height:10%; background-color: rgb(253, 255, 253); border-radius: 15px; border: 1px black solid;">
+                                <div class="text-center text-light"
+                                    style="left:0%; width: 90%; height:10%; background-color: rgb(6, 147, 6); border-radius: 15px;">
+                                    &nbsp;</div>
+                            </div>
+                            <br />
+                            <p class="card-text "> &nbsp;Hindi</p>
+                            <div
+                                style="width: 100%; height:10%; background-color: rgb(253, 255, 253); border-radius: 15px; border: 1px black solid;">
+                                <div class="text-center text-light"
+                                    style="left:0%; width: 50%; height:10%; background-color: rgb(6, 147, 6); border-radius: 15px;">
+                                    &nbsp;</div>
+                            </div>
+                            <br />
+                        </div>
+                    </div><br>
+                </div>
+            </div>
+
+            <!-- Right column -->
+
+            <div class="col-sm-8">
+                <div class="container">
+                    <div class="card dark" data-aos="zoom-in-left" data-aos-duration="1000">
+                        <div class="container-md">
+                            <div class="card-body">
+                                <h6 class="card-title title titles" id="Education"><b><i
+                                            class="fa-solid fa-graduation-cap "></i>
+                                        Education</b></h5><br>
+                                    <div class="container-md">
+                                        <div style="border: 1px black solid; border-radius: 15px; padding:12px;">
+                                            <h6 class="card-text "> <strong>&nbsp; B.Tech</strong></h6>
+                                            <p class="card-text "><i class="fa-solid fa-calendar-days"></i> From
+                                                2017-2021
+                                            </p>
+                                            <p class="card-text "><i class="fa-solid fa-building-columns"></i> Dr.KV
+                                                Subba
+                                                Reddy
+                                                Inst.
+                                                of
+                                                Technology (JNTUA)</p>
+                                            <p class="card-text "><i class="fa-solid fa-book-open"></i> Electrical and
+                                                Electronics
+                                                with
+                                                70.82%</p>
+                                        </div>
+                                        <hr>
+                                        <div style="border: 1px black solid; border-radius: 15px; padding:12px;">
+                                            <h6 class="card-text "> <strong>&nbsp; Intermediate</strong></h6>
+                                            <p class="card-text "><i class="fa-solid fa-calendar-days"></i> From
+                                                2015-2017
+                                            </p>
+                                            <p class="card-text "><i class="fa-solid fa-building-columns"></i> Deeksha
+                                                Junior
+                                                College
+                                            </p>
+                                            <p class="card-text "><i class="fa-solid fa-book-open"></i> MPC with 94.6%
+                                            </p>
+                                        </div>
+                                        <hr>
+                                        <div style="border: 1px black solid; border-radius: 15px; padding:12px;">
+                                            <h6 class="card-text "> <strong>&nbsp; 10<sup>th</sup></strong></h6>
+                                            <p class="card-text "><i class="fa-solid fa-calendar-days"></i> From
+                                                2014-2015
+                                            </p>
+                                            <p class="card-text "><i class="fa-solid fa-building-columns"></i> Machani
+                                                Sommapa
+                                                English
+                                                Medium School</p>
+                                            <p class="card-text "><i class="fa-solid fa-book-open"></i> 85%</p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="card dark" data-aos="zoom-in-right" data-aos-duration="1000">
+                        <div class="container-md">
+                            <div class="card-body">
+                                <h5 class="card-title title titles" id="Work-experience"><b><i
+                                            class="fa-solid fa-briefcase"></i> Work
+                                        Experience</b></h5><br>
+                                <div class="container-md"
+                                    style="border: 1px black solid; border-radius: 15px; padding:12px;">
+                                    <h6 class="card-text "> <strong>&nbsp;5 - Months of training on Full Stack Development (Java,Python) from 
+                                        <a  href="https://www.kodnest.com/" class="training" style="text-decoration: none;" target="_blank">
+                                            <span style="color: #e1bc16;">K</span>od<span style="color: #e1bc16;">N</span>est</a></strong>
+                                    </h6>
+                                    <p class="card-text "><i class="fa-solid fa-calendar-days"></i> From January 2022 - June 2022</p>
+                                    <h6>For certificate download here&nbsp; &#8594; &nbsp; <a href="https://raghuresume.w3spaces.com/Ragavendra_Machani_Certificate.png?bypass-cache=07668939"
+                                        download="MACHANI_RAGAVENDRA_CERTIFICATE"><button class="btn btn-success"><i
+                                                class="fa-solid fa-download"></i> Download</button></a><h6>
+                                </div>
+                                <hr>
+                                <div class="container-md"
+                                    style="border: 1px black solid; border-radius: 15px; padding:12px;">
+                                    <h6 class="card-text "> <strong>&nbsp;Emids Technologies Private Limited</strong>
+                                    </h6>
+                                    <h6 class="card-text ">&nbsp;Associate Software Engineer</h6>
+                                    <p class="card-text "><i class="fa-solid fa-calendar-days"></i> From March 2022 -
+                                        <span class="w3-tag w3-teal w3-round">Current</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="card dark" data-aos="zoom-in-left" data-aos-duration="1000">
+                        <div class="container-md">
+                            <div class="card-body">
+                                <h5 class="card-title title titles" id="Project"><b><i
+                                            class="fa-solid fa-diagram-project"></i>
+                                        Project
+                                        Details</b>
+                                </h5><br>
+                                <div class="container-md"
+                                    style="border: 1px black solid; border-radius: 15px; padding:12px;">
+                                    <h6 class="card-text "> <strong>&nbsp;Project Name : Four Switch Three Phase Sepic
+                                            Based
+                                            Inverter</strong></h6>
+                                    <h6 class="card-text ">&nbsp;As a Team Leader</h6>
+                                    <p class="card-text "><i class="fa-solid fa-calendar-days"></i> 3 months</p>
+                                    <p class="card-text">
+                                        <strong>Description</strong>
+                                        <li style="list-style: decimal;">The four-switch three-phase (FSTP) inverter has
+                                            been
+                                            proposed as an innovative
+                                            inverter design to reduce the cost, complexity, size, and switching losses
+                                            of
+                                            the dc–ac
+                                            conversion system.</li>
+                                        <li style="list-style: decimal;">The project provides pure sinusoidal output
+                                            voltages
+                                            with no need for output
+                                            filter.</li>
+                                    </p>
+                                    <p class="card-text text-end text-muted"> Did this project in my 8 semester</p>
+                                </div>
+                                <hr>
+                                <div class="container-md "
+                                    style="border: 1px black solid; border-radius: 15px; padding:12px;">
+                                    <h6 class="card-text "> <strong>&nbsp;Project Name : Capstone Project</strong></h6>
+                                    <h6 class="card-text ">&nbsp;As a Team Leader</h6>
+                                    <p class="card-text "><i class="fa-solid fa-calendar-days"></i> 3 months</p>
+                                    <p class="card-text">
+                                        <strong>Description : </strong>
+                                        Capstone
+                                        Full Stack project
+                                        on PUBG using Java, MySql, PostMan, MongoDB, React, Spring Framework.
+                                    </p>
+                                    <p class="card-text text-end text-muted"> Did this project on training period in
+                                        Emids
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="container-md "
+                                    style="border: 1px black solid; border-radius: 15px; padding:12px;">
+                                    <h6 class="card-text "> <strong>&nbsp;Project Name : Davita Project</strong></h6>
+                                    <h6 class="card-text ">&nbsp;As a junior Developer</h6>
+                                    <p class="card-text "><i class="fa-solid fa-calendar-days"></i>&nbsp;From August
+                                        2022 -
+                                        <span class="w3-tag w3-teal w3-round">Current</span>
+                                    </p>
+                                    <p class="card-text">
+                                        <strong>Description : </strong>
+                                        DaVita intends to work on New Feature Development and Enhancement of Existing
+                                        Features for existing CWOW platform. Enhancement and changes are to be done to
+                                        satisfy regulatory needs.
+                                    </p>
+                                    <p class="card-text"> <strong>Skills : </strong><br />Primary Technology: &nbsp;Java
+                                        & Angular
+                                        <br /> Tech Stack: &nbsp;Java, Angular, GCP, Spanner, Kafka, HTML, CSS,
+                                        Jasmin/Karma, Junit, Data flow, IBM ODM
+                                    </p>
+                                    <p class="card-text text-end text-muted">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="card dark" data-aos="zoom-in-right" data-aos-duration="1000">
+                        <div class="card-body text-center title titles">
+                            <h5 id="download"> <strong>Download Resume</strong> </h5>
+                            <a href="https://raghuresume.w3spaces.com/Machani_Ragavendra_Resume.pdf"
+                                download="MACHANI_RAGAVENDRA.pdf"><button class="btn btn-success"><i
+                                        class="fa-solid fa-download"></i> Download</button></a>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="card text-center bar-night" data-aos="zoom-in-left" data-aos-duration="1000">
+                <div class="card-body" data-aos="flip-right" data-aos-delay="800">
+                    <h5 class="card-title  title titles">Find me on social media</h5>
+                    <p class="card-text  " style="font-weight: 900; font-size: 200%; text-decoration: none;">
+                        <a href="https://www.facebook.com/profile.php?id=100009449169869" target="_blank"><i
+                                class="fa fa-facebook-official w3-hover-opacity title titles foot-icon0"></i></a>
+                        <a href="https://www.instagram.com/raghavendra_machani/" target="blank"><i
+                                class="fa fa-instagram w3-hover-opacity title titles foot-icon1"></i></a>
+                        <a href="https://www.linkedin.com/in/raghavendra-machani-027b57214" target="blank"><i
+                                class="fa fa-linkedin w3-hover-opacity title titles foot-icon2"></i>
+                        </a>
+                    </p>
+                    <h5 class="card-footer  title titles">Thank You</h5>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+
+    <script>
+
+        let body = document.getElementById("body");
+        let html = document.documentElement;
+        document.addEventListener('scroll', () => (
+
+            document.getElementById("line").style.width = body.scrollTop + "px"
+
+        ))
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+                target: '#main_nav'
+            })
+        });
+
+        if (sessionStorage.getItem("dark")) {
+            dark()
+        }
+
+        document.getElementById("line").classList.add("line-dark")
+
+        function dark() {
+            var icon = document.getElementById("mode");
+            var bodys = document.querySelectorAll(".card");
+            var title = document.querySelectorAll(".titles");
+            var body = document.querySelector("body")
+            var bar = document.querySelectorAll(".navbar , footer .card")
+            var line = document.getElementById("line");
+
+            setTimeout(() => {
+                for (const text of title) {
+                    if (text.classList.contains("title")) {
+                        text.classList.add("blacktitle");
+                        text.classList.remove("title");
+                    } else {
+                        text.classList.add("title");
+                        text.classList.remove("blacktitle");
+                    }
+                }
+                for (const bars of bar) {
+                    if (bars.classList.contains("bar-night")) {
+                        bars.classList.remove("bar-night");
+                        bars.classList.add("bar-light");
+                    } else {
+                        bars.classList.add("bar-night");
+                        bars.classList.remove("bar-light");
+                    }
+                }
+                for (const card of bodys) {
+                    if (card.classList.contains("dark")) {
+                        card.classList.remove("dark")
+                        card.classList.add("light");
+                        icon.classList.add("fa-sun")
+                        icon.classList.remove("fa-moon");
+                        body.classList.add("back-night");
+                        body.classList.remove("back-light");
+                        line.classList.remove("line")
+                        line.classList.add("line-dark")
+                    }
+                    else {
+                        card.classList.remove("light");
+                        card.classList.add("dark");
+                        icon.classList.add("fa-moon");
+                        icon.classList.remove("fa-sun")
+                        body.classList.remove("back-night");
+                        body.classList.add("back-light")
+                        line.classList.add("line")
+                        line.classList.remove("line-dark")
+                    }
+                }
+            }, 1100)
+            setTimeout(() => {
+                document.getElementById("circle1").classList.remove("circle1")
+                document.getElementById("circle").classList.remove("circle")
+            }, 1200)
+            for (const text of title) {
+                if (text.classList.contains("title")) {
+                    sessionStorage.setItem("dark", "false")
+                    document.getElementById("circle").classList.remove("circle")
+                    document.getElementById("circle1").classList.add("circle1")
+
+                } else {
+                    sessionStorage.removeItem("dark")
+                    document.getElementById("circle").classList.add("circle")
+                    document.getElementById("circle1").classList.remove("circle1")
+                }
+            }
+           
+        }
+
+        function copyBoard(e){
+                navigator.clipboard.writeText(e);
+                alert(e+" copied to clipboard")
+            }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
